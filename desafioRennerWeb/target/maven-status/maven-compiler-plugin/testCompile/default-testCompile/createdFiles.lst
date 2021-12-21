@@ -1,0 +1,13 @@
+br\com\renner\runner\RunnerTest.class
+br\com\renner\enums\Browser.class
+br\com\renner\core\Driver$1.class
+br\com\renner\maps\ProdutoMap.class
+br\com\renner\maps\LoginMap.class
+GeraPage.class
+br\com\renner\pages\LoginPage.class
+br\com\renner\steps\LoginSteps.class
+br\com\renner\pages\MyStorePage.class
+br\com\renner\steps\MyStoreSteps.class
+br\com\renner\core\Driver.class
+br\com\renner\maps\MyStoreMap.class
+br\com\renner\pages\ProdutoPage.class

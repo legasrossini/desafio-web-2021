@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: br.com.renner.runner.RunnerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.076 sec <<< FAILURE! - in br.com.renner.runner.RunnerTest
+initializationError(br.com.renner.runner.RunnerTest)  Time elapsed: 0.003 sec  <<< ERROR!
+java.lang.IllegalArgumentException: path must exist: D:\Documentos HD\ProjetosRenner\desafioRennerFront-main\src\test\resources\features
+

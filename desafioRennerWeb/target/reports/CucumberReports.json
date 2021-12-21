@@ -1,0 +1,170 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 9803911200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "que esteja logado na pagina My Store com os dados",
+            "match": {
+              "location": "br.com.renner.steps.LoginSteps.queEstejaLogadoNaPaginaMyStoreComOsDados(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "email",
+                  "douglaslr@teste.com"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "teste2021"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-21T18:07:17.793Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2851761700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "br.com.renner.steps.LoginSteps.iniciaNavegador(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "adiciono produtos",
+        "description": "",
+        "id": "adicionar-produtos-no-carrinho;adiciono-produtos",
+        "after": [
+          {
+            "result": {
+              "duration": 107154600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "br.com.renner.steps.LoginSteps.fechaNavegador(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1778187200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "que esteja na pagina principal de My Store",
+            "match": {
+              "location": "br.com.renner.steps.LoginSteps.queEstejaNaPaginaPrincipalDeMyStore()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 25666732700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "seleciono o produto alterando as opcoes do produto",
+            "match": {
+              "location": "br.com.renner.steps.MyStoreSteps.selecionoOProdutoAlterandoAsOpcoesDoProduto(java.util.List\u003cjava.util.Map\u003cjava.lang.String, java.lang.String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "nome",
+                  "quantidade",
+                  "tamanho",
+                  "cor"
+                ]
+              },
+              {
+                "cells": [
+                  "Printed Chiffon Dress",
+                  "",
+                  "M",
+                  "verde"
+                ]
+              },
+              {
+                "cells": [
+                  "Faded Short Sleeve T-shirts",
+                  "",
+                  "",
+                  "azul"
+                ]
+              },
+              {
+                "cells": [
+                  "Blouse",
+                  "2",
+                  "",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "Printed Dress",
+                  "",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 17952300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "valido que possuo \"5\" itens no carrinho",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5\"",
+                  "offset": 18
+                }
+              ],
+              "location": "br.com.renner.steps.MyStoreSteps.validoQuePossuoItensNoCarrinho(java.lang.String)"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@adicionaProduto"
+          }
+        ]
+      }
+    ],
+    "name": "Adicionar produtos no carrinho",
+    "description": "",
+    "id": "adicionar-produtos-no-carrinho",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/MyStore.feature",
+    "tags": []
+  }
+]
